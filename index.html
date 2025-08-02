@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Directed by Kurayvmi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Directed by Kurayvmi</h1>
+    <p>Director | Editor - Portfolio</p>
+  </header>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="gallery">
+    <div class="item">
+      <iframe width="100%" height="215" src="https://www.youtube.com/embed/L9sPVE1cN8c"
+        title="Greedy and Violent" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <p>GreedyBoyz - Greedy & Violent</p>
+    </div>
+    <div class="item">
+      <iframe width="100%" height="215" src="https://www.youtube.com/embed/eTOOMjiBg1Q?si=GLCnia0r-tc2BA_A"
+        title="Pup" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <p>GreedyBoyz - Pup</p>
+    </div>
+    <div class="item">
+      <iframe width="100%" height="215" src="https://www.youtube.com/embed/xTVIRHBLmhg?si=gU3LoqdmkVyVpEmP"
+        title="Sleep Paralysis" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <p>Heady - Sleep Paralysis</p>
+    </div>
+    <div class="item">
+      <iframe width="100%" height="215" src="https://www.youtube.com/embed/AKMv9kSgj2Y?si=T5FRktc7CmbNAvpq"
+        title="Jizz" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <p>IEatAssWhatsUp - Jizz</p>
+    </div>
+     <div class="item">
+      <iframe width="100%" height="215" src="https://www.youtube.com/embed/1Z_sCJzo3uw?si=hKEGv1KrixbbzGmt"
+        title="The Weekend" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <p>Sayiid - The Weekend</p>
+    </div>
+ </div>
+</section>
+
+
+<section class="contact-section">
+  <h2>Contact</h2>
+  <div class="contact-container">
+    <form id="contactForm"
+      action="https://formspree.io/f/mrblalkj"
+      method="POST">
+
+        <label>
+          Email:
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Instagram @:
+          <input type="text" name="instagram" placeholder="@">
+        </label>
+
+        <label>
+          Your message:
+          <textarea name="message" required></textarea>
+        </label>
+
+        <label>
+          Budget:
+          <select name="budget" required>
+            <option value="" disabled selected>Select a budget</option>
+            <option value="$300">$300</option>
+            <option value="$500">$500</option>
+            <option value="$750">$750</option>
+            <option value="$1000+">$1000+</option>
+          </select>
+        </label>
+
+        <button type="submit">Send</button>
+    </form>
+  </div>
+  <p id="formStatus" class="status"></p>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
